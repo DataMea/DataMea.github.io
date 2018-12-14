@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <title>DataMea | FAQ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="./style.css">
+    <style>
+        *.leftPadding {
+        padding-left:20%;
+        }
+        *.rightPadding {
+        padding-right:20%
+        }
+        *.frame-image {
+        max-width:100%;
+        }
+    </style>
+    <body>
+        <!-- Header -->
+        <header class="w3-container darkerBlue-theme w3-padding">
+            <div class="w3-center">
+                <h4>Email Statistics Analysis</h4>
+                <img style="width:35%; height:35%" src="./images/DataMea_logo.png">
+                <div class="w3-padding-32">
+                </div>
+            </div>
+        </header>
+        <!-- Navbar -->
+		<br>
+        <div class="">
+            <div class="w3-bar w3-center" id="myNavbar">
+                <a href="./index.html" class="w3-button w3-large w3-round"><i class="fa fa-home"></i> Home</a>
+                <a href="https://github.com/CSC480-18F/DataMea" class="w3-button w3-large w3-round"><i class="fa fa-github"></i> Github</a>
+                <a href="" class="w3-button w3-large w3-round"><i class="fa fa-book"></i> Manual</a>
+                <a href="" class="w3-button w3-large w3-round darkerBlue-theme"><i class="fa fa-align-left"></i> FAQ</a>
+                </a>
+            </div>
+        </div>
+        <div class="leftPadding rightPadding">
+            <hr>
+            </hr>
+        </div>
+        <!-- Container Collapsible Combo Boxes -->
+        <h2 class="w3-center">DataMea FAQ</h2>
+		<div class="w3-container w3-padding-16 leftPadding rightPadding">
+                <p>
+                    Have questions? Need assistance troubleshooting? 
+					This page is designed to help answer some of the more common questions our users may have when using DataMea. 
+					Provided above is a link to our GitHub page if you want to know more about the code within.
+                </p>
+            </div>
+        <div class="w3-container leftPadding rightPadding">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            <h4 class="panel-title">How long do I have to wait for the program to analyze my email account?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            Time varies by the size of the inbox. 
+							DataMea does come with a progress bar as well as the option to receive an email upon completion of the analysis. 
+							Just remember, DO NOT close the app while analyzing. That will delete all the progress and you will have to start again.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            <h4 class="panel-title">How do I know which graphs are filterable and which are not?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            When your cursor hovers over the graphs that are filterable, 
+							they will change from the pointer icon to a finger icon. Watch the tutorial video to see this change happen.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            <h4 class="panel-title">How come when I click on the filter button I don’t have an option to click filters I want to apply?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            The button you are referring to is where the filters are shown when they are clicked on in the app itself. 
+							Watch the tutorial on the homepage of the site for a comprehensive description of how to use filters.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            <h4 class="panel-title">What is sentiment?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Sentiment is a rating of the attitude of the emails within your account. 
+							The app analyzes each email that is in English and will determine if it has a positive, 
+							neutral, or negative tone. You can learn what tone people send you emails in.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                            <h4 class="panel-title">This is analyzing my email, do I have to be concerned with my privacy?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            You do not. DataMea does not keep any personal information about anyone who uses the product. 
+							Everything is encrypted when you enter it for the analysis and cannot be decrypted by anyone. 
+							Refer to our privacy section on the home page to read more detail about the privacy policy.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                            <h4 class="panel-title">I do not want my data to be on DataMea anymore, how do I get rid of it?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            If you go to the settings menu, you have the option to erase all of the data pertaining to your email account. 
+							Be careful with this, if you do not want to complete this action and do so, you will have to reanalyze the entire account again.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                            <h4 class="panel-title">I have two factor authentication and cannot log into the DataMea program?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            If you have two factor authentication you will need to either disable the feature or sign into your email account using an App Password. 
+							In order to use an App Password you must visit:  <a href="https://support.google.com/accounts/answer/185833?hl=en">https://support.google.com/accounts/answer/185833?hl=en</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                            <h4 class="panel-title">How do I select a specific folder?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            You can look at the different folders of you inbox. To do this click the menu button on the top left of the screen. 
+							The menu will appear on the left side of the program, listing all of the folders that make up your email account. 
+							By selecting any of these folders you can change the data that is displayed on the dashboard to reflect the composition of the selected folder.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                            <h4 class="panel-title">How do I apply my selected filters?</h4>
+                        </a>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            In order to apply the selected filters you must click the “Apply Filters” button. You can remove the filters by clicking on the “x” icon to the right of each filter label.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="w3-center darkerBlue-theme w3-padding-16">
+            <h4>Check Us Out On Github!</h4>
+            <a class="w3-button w3-large w3-purple w3-round" href="https://github.com/CSC480-18F/DataMea" title="Github"><i class="fa fa-github"></i></a>
+            <br>
+            <p>DataMea, Copyright © 2018</p>
+        </footer>
+    </body>
+</html>
